@@ -1,0 +1,10 @@
+{
+  javascript: [
+    "~/App_Plugins/UmbracoBackOffice.MediaPreview.Pdf/registration.js",
+    "~/App_Plugins/UmbracoBackOffice.MediaPreview.Pdf/umbextmediapreviewpdf.controller.js",
+    "~/App_Plugins/UmbracoBackOffice.MediaPreview.Pdf/umbextpdfviewer.component.js"
+  ],
+  css: [
+    "~/App_Plugins/UmbracoBackOffice.MediaPreview.Pdf/styles.css"
+  ]
+}

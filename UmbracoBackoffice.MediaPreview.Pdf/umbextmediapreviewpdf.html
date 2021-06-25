@@ -1,0 +1,13 @@
+<div class="umbext-mediapreview-pdf" ng-controller="umbextMediapreviewPdfController as controller">
+  <umbext-pdf-viewer
+    ng-if="vm.clientSide"
+    ng-init="previewUrl = controller.getClientSideUrl(vm.clientSideData)"
+    src="previewUrl">
+  </umbext-pdf-viewer>
+
+  <umbext-pdf-viewer
+    ng-if="!vm.clientSide"
+    src="vm.source">
+  </umbext-pdf-viewer>
+
+</div>
